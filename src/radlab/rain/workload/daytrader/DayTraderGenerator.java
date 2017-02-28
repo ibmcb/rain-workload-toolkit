@@ -98,7 +98,8 @@ public class DayTraderGenerator extends Generator
 	{
 		super( track );
 		
-		this._baseUrl 	= "http://" + this._loadTrack.getTargetHostName() + ":" + this._loadTrack.getTargetHostPort() + "/daytrader-web-jdbc-2.2-SNAPSHOT";
+		//this._baseUrl 	= "http://" + this._loadTrack.getTargetHostName() + ":" + this._loadTrack.getTargetHostPort() + "/daytrader-web-jdbc-2.2-SNAPSHOT";
+		this._baseUrl 	= "http://" + this._loadTrack.getTargetHostName() + ":" + this._loadTrack.getTargetHostPort() + "/daytrader";
 		this._loginUrl 	= this._baseUrl + "/app";
 		this._userHomeUrl = this._baseUrl + "/app?action=home";
 		this._logoutUrl = this._baseUrl + "/app?action=logout";
